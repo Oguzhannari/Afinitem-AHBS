@@ -10,6 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Sunum
 
 {
@@ -113,7 +114,8 @@ namespace Sunum
                     if (true)
                     {
                         this.Hide();
-
+                        FormWelcome welcome = new FormWelcome();
+                        welcome.ShowDialog();
 
                     }
                     else

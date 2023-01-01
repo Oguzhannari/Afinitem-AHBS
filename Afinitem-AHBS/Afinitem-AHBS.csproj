@@ -101,6 +101,12 @@
     <Compile Include="FormRecoverPassword.designer.cs">
       <DependentUpon>FormRecoverPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWelcome.designer.cs">
+      <DependentUpon>FormWelcome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AfiControls\AfiTextBox.resx" />
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormRecoverPassword.resx">
       <DependentUpon>FormRecoverPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWelcome.resx">
+      <DependentUpon>FormWelcome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
