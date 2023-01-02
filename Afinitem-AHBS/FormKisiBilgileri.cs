@@ -267,6 +267,7 @@ namespace Sunum
 		private void afiButton16_Click(object sender, EventArgs e)
 		{
             form.Close();
+            form = SabitFonksiyonlar.AbrirFormulario<Tetkik>(panel1);
         }
 
 		private void afiButton15_Click(object sender, EventArgs e)
