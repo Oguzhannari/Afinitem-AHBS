@@ -171,6 +171,12 @@
     <Compile Include="grafik.designer.cs">
       <DependentUpon>grafik.cs</DependentUpon>
     </Compile>
+    <Compile Include="KisiAileTakvim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KisiAileTakvim.designer.cs">
+      <DependentUpon>KisiAileTakvim.cs</DependentUpon>
+    </Compile>
     <Compile Include="Muayene.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -212,6 +218,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="grafik.resx">
       <DependentUpon>grafik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KisiAileTakvim.resx">
+      <DependentUpon>KisiAileTakvim.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Muayene.resx">
       <DependentUpon>Muayene.cs</DependentUpon>
