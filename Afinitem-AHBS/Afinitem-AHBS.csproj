@@ -94,6 +94,12 @@
     </Compile>
     <Compile Include="AfiControls\MenuColorTable.cs" />
     <Compile Include="AfiControls\MenuRenderer.cs" />
+    <Compile Include="Asi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asi.designer.cs">
+      <DependentUpon>Asi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Baslangic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -159,6 +165,9 @@
     <Compile Include="Sabit Fonksiyonlar\SabitFonksiyonlar.cs" />
     <EmbeddedResource Include="AfiControls\AfiTextBox.resx" />
     <EmbeddedResource Include="AfiControls\AfiTextBox1.resx" />
+    <EmbeddedResource Include="Asi.resx">
+      <DependentUpon>Asi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Baslangic.resx">
       <DependentUpon>Baslangic.cs</DependentUpon>
     </EmbeddedResource>
