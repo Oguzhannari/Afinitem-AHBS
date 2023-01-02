@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Sunum.Formlar.Kişi_İşlemleri;
 using Sunum.Static_Sınıflar;
 
 namespace Sunum
@@ -19,6 +19,7 @@ namespace Sunum
         public FormKisiBilgileri()
 		{
 			InitializeComponent();
+            form = SabitFonksiyonlar.AbrirFormulario<Muayene>(panel1);
             dpDogumTarihi.Format = DateTimePickerFormat.Custom;
             dpDogumTarihi.CustomFormat = "dd/MM/yyyy";
             dpAHKayitTarihi.Format = DateTimePickerFormat.Custom;
@@ -259,6 +260,8 @@ namespace Sunum
 		private void afiButton17_Click(object sender, EventArgs e)
 		{
             form.Close();
+            form = SabitFonksiyonlar.AbrirFormulario<Muayene>(panel1);
+
         }
 
 		private void afiButton16_Click(object sender, EventArgs e)
