@@ -93,6 +93,9 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panelGrafikVeriler = new System.Windows.Forms.Panel();
+            this.pbExcelVeriler = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.chartBuyuk)).BeginInit();
             this.panelBildirim.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -120,6 +123,9 @@
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.panelGrafikVeriler.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbExcelVeriler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // chartBuyuk
@@ -812,12 +818,44 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Bebek İzlem";
             // 
+            // panelGrafikVeriler
+            // 
+            this.panelGrafikVeriler.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.panelGrafikVeriler.Controls.Add(this.pbExcelVeriler);
+            this.panelGrafikVeriler.Controls.Add(this.pictureBox6);
+            this.panelGrafikVeriler.Location = new System.Drawing.Point(17, 585);
+            this.panelGrafikVeriler.Name = "panelGrafikVeriler";
+            this.panelGrafikVeriler.Size = new System.Drawing.Size(333, 198);
+            this.panelGrafikVeriler.TabIndex = 50;
+            // 
+            // pbExcelVeriler
+            // 
+            this.pbExcelVeriler.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pbExcelVeriler.BackColor = System.Drawing.Color.Transparent;
+            this.pbExcelVeriler.Image = ((System.Drawing.Image)(resources.GetObject("pbExcelVeriler.Image")));
+            this.pbExcelVeriler.Location = new System.Drawing.Point(82, 144);
+            this.pbExcelVeriler.Name = "pbExcelVeriler";
+            this.pbExcelVeriler.Size = new System.Drawing.Size(50, 50);
+            this.pbExcelVeriler.TabIndex = 17;
+            this.pbExcelVeriler.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(25, 144);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.TabIndex = 15;
+            this.pictureBox6.TabStop = false;
+            // 
             // grafik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(227)))), ((int)(((byte)(227)))));
             this.ClientSize = new System.Drawing.Size(1378, 791);
+            this.Controls.Add(this.panelGrafikVeriler);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -864,6 +902,9 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
+            this.panelGrafikVeriler.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbExcelVeriler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -918,5 +959,8 @@
         private System.Windows.Forms.Panel panelHizliBaglatilar;
         private System.Windows.Forms.Panel panelAnimsatici;
         private System.Windows.Forms.Label lblTarama;
+        private System.Windows.Forms.Panel panelGrafikVeriler;
+        private System.Windows.Forms.PictureBox pbExcelVeriler;
+        private System.Windows.Forms.PictureBox pictureBox6;
     }
 }
