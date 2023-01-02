@@ -77,6 +77,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.HastaKabulbtn = new Sunum.AfiControls.AfiButton();
             this.btnSina = new Sunum.AfiControls.AfiButton();
             this.btnHyp = new Sunum.AfiControls.AfiButton();
             this.btnKisiİslemleri = new Sunum.AfiControls.AfiButton();
@@ -87,7 +88,6 @@
             this.btnAnaSayfa = new Sunum.AfiControls.AfiButton();
             this.panelDegisen = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.HastaKabulbtn = new Sunum.AfiControls.AfiButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AltaAl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Kucult)).BeginInit();
@@ -723,6 +723,31 @@
             this.panel4.Size = new System.Drawing.Size(158, 805);
             this.panel4.TabIndex = 19;
             // 
+            // HastaKabulbtn
+            // 
+            this.HastaKabulbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.HastaKabulbtn.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.HastaKabulbtn.BorderColor = System.Drawing.Color.Transparent;
+            this.HastaKabulbtn.BorderRadius = 10;
+            this.HastaKabulbtn.BorderSize = 0;
+            this.HastaKabulbtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.HastaKabulbtn.FlatAppearance.BorderSize = 0;
+            this.HastaKabulbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
+            this.HastaKabulbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.HastaKabulbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HastaKabulbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.HastaKabulbtn.ForeColor = System.Drawing.Color.Black;
+            this.HastaKabulbtn.Image = ((System.Drawing.Image)(resources.GetObject("HastaKabulbtn.Image")));
+            this.HastaKabulbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.HastaKabulbtn.Location = new System.Drawing.Point(6, 86);
+            this.HastaKabulbtn.Name = "HastaKabulbtn";
+            this.HastaKabulbtn.Size = new System.Drawing.Size(138, 33);
+            this.HastaKabulbtn.TabIndex = 32;
+            this.HastaKabulbtn.Text = "Hasta Kabul";
+            this.HastaKabulbtn.TextColor = System.Drawing.Color.Black;
+            this.HastaKabulbtn.UseVisualStyleBackColor = false;
+            this.HastaKabulbtn.Click += new System.EventHandler(this.HastaKabulbtn_Click_1);
+            // 
             // btnSina
             // 
             this.btnSina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
@@ -794,6 +819,7 @@
             this.btnKisiİslemleri.Text = "Kişi İşlemleri";
             this.btnKisiİslemleri.TextColor = System.Drawing.Color.Black;
             this.btnKisiİslemleri.UseVisualStyleBackColor = false;
+            this.btnKisiİslemleri.Click += new System.EventHandler(this.btnKisiİslemleri_Click);
             // 
             // btnFormlar
             // 
@@ -937,31 +963,6 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // HastaKabulbtn
-            // 
-            this.HastaKabulbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.HastaKabulbtn.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.HastaKabulbtn.BorderColor = System.Drawing.Color.Transparent;
-            this.HastaKabulbtn.BorderRadius = 10;
-            this.HastaKabulbtn.BorderSize = 0;
-            this.HastaKabulbtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.HastaKabulbtn.FlatAppearance.BorderSize = 0;
-            this.HastaKabulbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
-            this.HastaKabulbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
-            this.HastaKabulbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.HastaKabulbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.HastaKabulbtn.ForeColor = System.Drawing.Color.Black;
-            this.HastaKabulbtn.Image = ((System.Drawing.Image)(resources.GetObject("HastaKabulbtn.Image")));
-            this.HastaKabulbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.HastaKabulbtn.Location = new System.Drawing.Point(6, 86);
-            this.HastaKabulbtn.Name = "HastaKabulbtn";
-            this.HastaKabulbtn.Size = new System.Drawing.Size(138, 33);
-            this.HastaKabulbtn.TabIndex = 32;
-            this.HastaKabulbtn.Text = "Hasta Kabul";
-            this.HastaKabulbtn.TextColor = System.Drawing.Color.Black;
-            this.HastaKabulbtn.UseVisualStyleBackColor = false;
-            this.HastaKabulbtn.Click += new System.EventHandler(this.HastaKabulbtn_Click_1);
             // 
             // FormAnaSayfa
             // 

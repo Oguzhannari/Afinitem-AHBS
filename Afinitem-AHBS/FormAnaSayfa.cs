@@ -18,7 +18,7 @@ namespace Sunum
         Form form = new Form();
         Form form4 = new Form();
         Form form1 = new Form();
-
+        Form form2 = new Form();
 
         public FormAnaSayfa()
         {
@@ -26,6 +26,7 @@ namespace Sunum
             form = SabitFonksiyonlar.AbrirFormulario<grafik>(panelDegisen);
             form4 = SabitFonksiyonlar.AbrirFormulario<FormKisiIslemleri>(panelDegisen);
             form1 = SabitFonksiyonlar.AbrirFormulario<FormHastaKabul>(panelDegisen);
+            form2 = SabitFonksiyonlar.AbrirFormulario<FormKisiBilgileri>(panelDegisen);
             form.BringToFront();
 
         }
@@ -140,6 +141,12 @@ namespace Sunum
         private void HastaKabulbtn_Click_1(object sender, EventArgs e)
         {
             form1.BringToFront();
+        }
+
+        private void btnKisiİslemleri_Click(object sender, EventArgs e)
+        {
+            form2.BringToFront();
+
         }
     }
 }
