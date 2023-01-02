@@ -116,6 +116,12 @@
     <Compile Include="Baslangic.designer.cs">
       <DependentUpon>Baslangic.cs</DependentUpon>
     </Compile>
+    <Compile Include="bebekİzlem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bebekİzlem.designer.cs">
+      <DependentUpon>bebekİzlem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Entegrasyon\ICD-10.cs" />
     <Compile Include="Entegrasyon\Ilaclar.cs" />
     <Compile Include="Entegrasyon\Listeler.cs" />
@@ -172,11 +178,29 @@
     <Compile Include="FormAnaSayfa.designer.cs">
       <DependentUpon>FormAnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Gebeİzlem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gebeİzlem.designer.cs">
+      <DependentUpon>Gebeİzlem.cs</DependentUpon>
+    </Compile>
     <Compile Include="grafik.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="grafik.designer.cs">
       <DependentUpon>grafik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HYP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HYP.designer.cs">
+      <DependentUpon>HYP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KanserTarama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KanserTarama.designer.cs">
+      <DependentUpon>KanserTarama.cs</DependentUpon>
     </Compile>
     <Compile Include="KisiAileTakvim.cs">
       <SubType>Form</SubType>
@@ -200,6 +224,12 @@
     <Compile Include="Tetkik.designer.cs">
       <DependentUpon>Tetkik.cs</DependentUpon>
     </Compile>
+    <Compile Include="İzlem15_49.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İzlem15_49.designer.cs">
+      <DependentUpon>İzlem15_49.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AfiControls\AfiTextBox.resx" />
     <EmbeddedResource Include="AfiControls\AfiTextBox1.resx" />
     <EmbeddedResource Include="Asi.resx">
@@ -207,6 +237,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Baslangic.resx">
       <DependentUpon>Baslangic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bebekİzlem.resx">
+      <DependentUpon>bebekİzlem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormHastaKabul.resx">
       <DependentUpon>FormHastaKabul.cs</DependentUpon>
@@ -229,8 +262,17 @@
     <EmbeddedResource Include="FormAnaSayfa.resx">
       <DependentUpon>FormAnaSayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gebeİzlem.resx">
+      <DependentUpon>Gebeİzlem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="grafik.resx">
       <DependentUpon>grafik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HYP.resx">
+      <DependentUpon>HYP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KanserTarama.resx">
+      <DependentUpon>KanserTarama.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KisiAileTakvim.resx">
       <DependentUpon>KisiAileTakvim.cs</DependentUpon>
@@ -249,6 +291,9 @@
     </Compile>
     <EmbeddedResource Include="Tetkik.resx">
       <DependentUpon>Tetkik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İzlem15_49.resx">
+      <DependentUpon>İzlem15_49.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

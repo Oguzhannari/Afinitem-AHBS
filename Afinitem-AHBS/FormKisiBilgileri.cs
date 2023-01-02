@@ -285,27 +285,33 @@ namespace Sunum
 		private void afiButton2_Click_1(object sender, EventArgs e)
 		{
             form.Close();
-            form = SabitFonksiyonlar.AbrirFormulario<Asi>(panel1);
+            form = SabitFonksiyonlar.AbrirFormulario<KanserTarama>(panel1);
         }
 
 		private void afiButton1_Click(object sender, EventArgs e)
 		{
             form.Close();
+            form = SabitFonksiyonlar.AbrirFormulario<HYP>(panel1);
         }
 
 		private void afiButton12_Click(object sender, EventArgs e)
 		{
             form.Close();
+            form = SabitFonksiyonlar.AbrirFormulario<Gebeİzlem>(panel1);
         }
 
         private void afiButton8_Click(object sender, EventArgs e)
         {
             form.Close();
+            form = SabitFonksiyonlar.AbrirFormulario<bebekİzlem>(panel1);
+
         }
 
         private void afiButton13_Click(object sender, EventArgs e)
         {
             form.Close();
+            form = SabitFonksiyonlar.AbrirFormulario<İzlem15_49>(panel1);
+
         }
 
         private void tbAd_Enter(object sender, EventArgs e)
