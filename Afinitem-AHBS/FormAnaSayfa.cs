@@ -15,10 +15,15 @@ namespace Sunum
     public partial class FormAnaSayfa : Form
     {
         Form form = new Form();
+        Form form4 = new Form();
+
         public FormAnaSayfa()
         {
             InitializeComponent();
-            form = SabitFonksiyonlar.AbrirFormulario<grafik>(panel3);
+            form = SabitFonksiyonlar.AbrirFormulario<grafik>(panelDegisen);
+            form4 = SabitFonksiyonlar.AbrirFormulario<FormKisiIslemleri>(panelDegisen);
+            form.BringToFront();
+
         }
         private void LUTENSONANASYFAOLSUN_Load(object sender, EventArgs e)
         {
@@ -27,7 +32,7 @@ namespace Sunum
 
         private void btnAnaSayfa_Click(object sender, EventArgs e)
         {
-            form.Close();
+            form.BringToFront();
         }
 
         private void btnAnaSayfa_MouseHover(object sender, EventArgs e)
@@ -37,7 +42,6 @@ namespace Sunum
 
         private void HastaKabulbtn_Click(object sender, EventArgs e)
         {
-            form.Close();
         }
 
         private void HastaKabulbtn_MouseHover(object sender, EventArgs e)
@@ -47,7 +51,7 @@ namespace Sunum
 
         private void Kisilerbtn_Click(object sender, EventArgs e)
         {
-            form.Close();
+            form4.BringToFront();
         }
 
         private void Kisilerbtn_MouseHover(object sender, EventArgs e)
@@ -57,7 +61,6 @@ namespace Sunum
 
         private void Poliklinikbtn_Click(object sender, EventArgs e)
         {
-            form.Close();
         }
 
         private void Poliklinikbtn_MouseHover(object sender, EventArgs e)
@@ -69,7 +72,6 @@ namespace Sunum
 
         private void Randevubtn_Click(object sender, EventArgs e)
         {
-            form.Close();
         }
 
         private void Randevubtn_MouseHover(object sender, EventArgs e)
@@ -80,7 +82,6 @@ namespace Sunum
 
         private void İsPlanibtn_Click(object sender, EventArgs e)
         {
-            form.Close();
         }
 
         private void İsPlanibtn_MouseHover(object sender, EventArgs e)
@@ -90,12 +91,10 @@ namespace Sunum
 
         private void HYPbtn_Click(object sender, EventArgs e)
         {
-            form.Close();
         }
 
         private void AylikClsmabtn_Click(object sender, EventArgs e)
         {
-            form.Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)

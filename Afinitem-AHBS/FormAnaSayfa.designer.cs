@@ -31,10 +31,17 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAnaSayfa));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnYardim = new Sunum.AfiControls.AfiButton();
+            this.btnFavoriler = new Sunum.AfiControls.AfiButton();
+            this.btnAnaliz = new Sunum.AfiControls.AfiButton();
+            this.btnGit = new Sunum.AfiControls.AfiButton();
+            this.btnDuzen = new Sunum.AfiControls.AfiButton();
+            this.btnDosya = new Sunum.AfiControls.AfiButton();
             this.AltaAl = new System.Windows.Forms.PictureBox();
             this.Kucult = new System.Windows.Forms.PictureBox();
             this.Kapat = new System.Windows.Forms.PictureBox();
             this.panel40 = new System.Windows.Forms.Panel();
+            this.btnSil = new Sunum.AfiControls.AfiButton();
             this.panel5 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -70,23 +77,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.btnSina = new Sunum.AfiControls.AfiButton();
+            this.btnHyp = new Sunum.AfiControls.AfiButton();
+            this.btnKisiİslemleri = new Sunum.AfiControls.AfiButton();
+            this.btnFormlar = new Sunum.AfiControls.AfiButton();
             this.Randevubtn = new Sunum.AfiControls.AfiButton();
             this.Poliklinikbtn = new Sunum.AfiControls.AfiButton();
             this.Kisilerbtn = new Sunum.AfiControls.AfiButton();
             this.btnAnaSayfa = new Sunum.AfiControls.AfiButton();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelDegisen = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.btnKisiİslemleri = new Sunum.AfiControls.AfiButton();
-            this.btnFormlar = new Sunum.AfiControls.AfiButton();
-            this.btnHyp = new Sunum.AfiControls.AfiButton();
-            this.btnSina = new Sunum.AfiControls.AfiButton();
-            this.btnYardim = new Sunum.AfiControls.AfiButton();
-            this.btnFavoriler = new Sunum.AfiControls.AfiButton();
-            this.btnAnaliz = new Sunum.AfiControls.AfiButton();
-            this.btnGit = new Sunum.AfiControls.AfiButton();
-            this.btnDuzen = new Sunum.AfiControls.AfiButton();
-            this.btnDosya = new Sunum.AfiControls.AfiButton();
-            this.btnSil = new Sunum.AfiControls.AfiButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AltaAl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Kucult)).BeginInit();
@@ -129,6 +129,120 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1300, 24);
             this.panel1.TabIndex = 16;
+            // 
+            // btnYardim
+            // 
+            this.btnYardim.BackColor = System.Drawing.Color.Transparent;
+            this.btnYardim.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnYardim.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnYardim.BorderRadius = 0;
+            this.btnYardim.BorderSize = 0;
+            this.btnYardim.FlatAppearance.BorderSize = 0;
+            this.btnYardim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYardim.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnYardim.ForeColor = System.Drawing.Color.Black;
+            this.btnYardim.Location = new System.Drawing.Point(290, 1);
+            this.btnYardim.Name = "btnYardim";
+            this.btnYardim.Size = new System.Drawing.Size(56, 21);
+            this.btnYardim.TabIndex = 48;
+            this.btnYardim.Text = "Yardım";
+            this.btnYardim.TextColor = System.Drawing.Color.Black;
+            this.btnYardim.UseVisualStyleBackColor = false;
+            // 
+            // btnFavoriler
+            // 
+            this.btnFavoriler.BackColor = System.Drawing.Color.Transparent;
+            this.btnFavoriler.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnFavoriler.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnFavoriler.BorderRadius = 0;
+            this.btnFavoriler.BorderSize = 0;
+            this.btnFavoriler.FlatAppearance.BorderSize = 0;
+            this.btnFavoriler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFavoriler.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFavoriler.ForeColor = System.Drawing.Color.Black;
+            this.btnFavoriler.Location = new System.Drawing.Point(228, 0);
+            this.btnFavoriler.Name = "btnFavoriler";
+            this.btnFavoriler.Size = new System.Drawing.Size(62, 21);
+            this.btnFavoriler.TabIndex = 47;
+            this.btnFavoriler.Text = "Favoriler";
+            this.btnFavoriler.TextColor = System.Drawing.Color.Black;
+            this.btnFavoriler.UseVisualStyleBackColor = false;
+            // 
+            // btnAnaliz
+            // 
+            this.btnAnaliz.BackColor = System.Drawing.Color.Transparent;
+            this.btnAnaliz.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnAnaliz.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnAnaliz.BorderRadius = 0;
+            this.btnAnaliz.BorderSize = 0;
+            this.btnAnaliz.FlatAppearance.BorderSize = 0;
+            this.btnAnaliz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnaliz.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnAnaliz.ForeColor = System.Drawing.Color.Black;
+            this.btnAnaliz.Location = new System.Drawing.Point(172, 0);
+            this.btnAnaliz.Name = "btnAnaliz";
+            this.btnAnaliz.Size = new System.Drawing.Size(56, 21);
+            this.btnAnaliz.TabIndex = 46;
+            this.btnAnaliz.Text = "Analiz";
+            this.btnAnaliz.TextColor = System.Drawing.Color.Black;
+            this.btnAnaliz.UseVisualStyleBackColor = false;
+            // 
+            // btnGit
+            // 
+            this.btnGit.BackColor = System.Drawing.Color.Transparent;
+            this.btnGit.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnGit.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnGit.BorderRadius = 0;
+            this.btnGit.BorderSize = 0;
+            this.btnGit.FlatAppearance.BorderSize = 0;
+            this.btnGit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnGit.ForeColor = System.Drawing.Color.Black;
+            this.btnGit.Location = new System.Drawing.Point(115, 0);
+            this.btnGit.Name = "btnGit";
+            this.btnGit.Size = new System.Drawing.Size(56, 21);
+            this.btnGit.TabIndex = 45;
+            this.btnGit.Text = "Git";
+            this.btnGit.TextColor = System.Drawing.Color.Black;
+            this.btnGit.UseVisualStyleBackColor = false;
+            // 
+            // btnDuzen
+            // 
+            this.btnDuzen.BackColor = System.Drawing.Color.Transparent;
+            this.btnDuzen.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnDuzen.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnDuzen.BorderRadius = 0;
+            this.btnDuzen.BorderSize = 0;
+            this.btnDuzen.FlatAppearance.BorderSize = 0;
+            this.btnDuzen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDuzen.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDuzen.ForeColor = System.Drawing.Color.Black;
+            this.btnDuzen.Location = new System.Drawing.Point(58, 0);
+            this.btnDuzen.Name = "btnDuzen";
+            this.btnDuzen.Size = new System.Drawing.Size(56, 21);
+            this.btnDuzen.TabIndex = 44;
+            this.btnDuzen.Text = "Düzen";
+            this.btnDuzen.TextColor = System.Drawing.Color.Black;
+            this.btnDuzen.UseVisualStyleBackColor = false;
+            // 
+            // btnDosya
+            // 
+            this.btnDosya.BackColor = System.Drawing.Color.Transparent;
+            this.btnDosya.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnDosya.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btnDosya.BorderRadius = 0;
+            this.btnDosya.BorderSize = 0;
+            this.btnDosya.FlatAppearance.BorderSize = 0;
+            this.btnDosya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDosya.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnDosya.ForeColor = System.Drawing.Color.Black;
+            this.btnDosya.Location = new System.Drawing.Point(3, 0);
+            this.btnDosya.Name = "btnDosya";
+            this.btnDosya.Size = new System.Drawing.Size(56, 21);
+            this.btnDosya.TabIndex = 43;
+            this.btnDosya.Text = "Dosya";
+            this.btnDosya.TextColor = System.Drawing.Color.Black;
+            this.btnDosya.UseVisualStyleBackColor = false;
             // 
             // AltaAl
             // 
@@ -182,6 +296,24 @@
             this.panel40.Name = "panel40";
             this.panel40.Size = new System.Drawing.Size(1300, 46);
             this.panel40.TabIndex = 17;
+            // 
+            // btnSil
+            // 
+            this.btnSil.BackColor = System.Drawing.Color.Transparent;
+            this.btnSil.BackGroundColor = System.Drawing.Color.Transparent;
+            this.btnSil.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSil.BorderRadius = 25;
+            this.btnSil.BorderSize = 2;
+            this.btnSil.FlatAppearance.BorderSize = 0;
+            this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSil.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSil.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.Image")));
+            this.btnSil.Location = new System.Drawing.Point(393, 9);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(25, 25);
+            this.btnSil.TabIndex = 39;
+            this.btnSil.TextColor = System.Drawing.Color.Transparent;
+            this.btnSil.UseVisualStyleBackColor = false;
             // 
             // panel5
             // 
@@ -589,6 +721,102 @@
             this.panel4.Size = new System.Drawing.Size(158, 805);
             this.panel4.TabIndex = 19;
             // 
+            // btnSina
+            // 
+            this.btnSina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnSina.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnSina.BorderColor = System.Drawing.Color.Transparent;
+            this.btnSina.BorderRadius = 10;
+            this.btnSina.BorderSize = 0;
+            this.btnSina.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnSina.FlatAppearance.BorderSize = 0;
+            this.btnSina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
+            this.btnSina.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.btnSina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSina.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSina.ForeColor = System.Drawing.Color.Black;
+            this.btnSina.Image = ((System.Drawing.Image)(resources.GetObject("btnSina.Image")));
+            this.btnSina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSina.Location = new System.Drawing.Point(6, 162);
+            this.btnSina.Name = "btnSina";
+            this.btnSina.Size = new System.Drawing.Size(138, 33);
+            this.btnSina.TabIndex = 31;
+            this.btnSina.Text = "SİNA";
+            this.btnSina.TextColor = System.Drawing.Color.Black;
+            this.btnSina.UseVisualStyleBackColor = false;
+            // 
+            // btnHyp
+            // 
+            this.btnHyp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnHyp.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnHyp.BorderColor = System.Drawing.Color.Transparent;
+            this.btnHyp.BorderRadius = 10;
+            this.btnHyp.BorderSize = 0;
+            this.btnHyp.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnHyp.FlatAppearance.BorderSize = 0;
+            this.btnHyp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
+            this.btnHyp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.btnHyp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHyp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHyp.ForeColor = System.Drawing.Color.Black;
+            this.btnHyp.Image = ((System.Drawing.Image)(resources.GetObject("btnHyp.Image")));
+            this.btnHyp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHyp.Location = new System.Drawing.Point(6, 201);
+            this.btnHyp.Name = "btnHyp";
+            this.btnHyp.Size = new System.Drawing.Size(138, 33);
+            this.btnHyp.TabIndex = 30;
+            this.btnHyp.Text = "HYP";
+            this.btnHyp.TextColor = System.Drawing.Color.Black;
+            this.btnHyp.UseVisualStyleBackColor = false;
+            // 
+            // btnKisiİslemleri
+            // 
+            this.btnKisiİslemleri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnKisiİslemleri.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnKisiİslemleri.BorderColor = System.Drawing.Color.Transparent;
+            this.btnKisiİslemleri.BorderRadius = 10;
+            this.btnKisiİslemleri.BorderSize = 0;
+            this.btnKisiİslemleri.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnKisiİslemleri.FlatAppearance.BorderSize = 0;
+            this.btnKisiİslemleri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
+            this.btnKisiİslemleri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.btnKisiİslemleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKisiİslemleri.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKisiİslemleri.ForeColor = System.Drawing.Color.Black;
+            this.btnKisiİslemleri.Image = ((System.Drawing.Image)(resources.GetObject("btnKisiİslemleri.Image")));
+            this.btnKisiİslemleri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKisiİslemleri.Location = new System.Drawing.Point(6, 279);
+            this.btnKisiİslemleri.Name = "btnKisiİslemleri";
+            this.btnKisiİslemleri.Size = new System.Drawing.Size(138, 33);
+            this.btnKisiİslemleri.TabIndex = 29;
+            this.btnKisiİslemleri.Text = "Kişi İşlemleri";
+            this.btnKisiİslemleri.TextColor = System.Drawing.Color.Black;
+            this.btnKisiİslemleri.UseVisualStyleBackColor = false;
+            // 
+            // btnFormlar
+            // 
+            this.btnFormlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnFormlar.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.btnFormlar.BorderColor = System.Drawing.Color.Transparent;
+            this.btnFormlar.BorderRadius = 10;
+            this.btnFormlar.BorderSize = 0;
+            this.btnFormlar.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnFormlar.FlatAppearance.BorderSize = 0;
+            this.btnFormlar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
+            this.btnFormlar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.btnFormlar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFormlar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnFormlar.ForeColor = System.Drawing.Color.Black;
+            this.btnFormlar.Image = ((System.Drawing.Image)(resources.GetObject("btnFormlar.Image")));
+            this.btnFormlar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnFormlar.Location = new System.Drawing.Point(6, 240);
+            this.btnFormlar.Name = "btnFormlar";
+            this.btnFormlar.Size = new System.Drawing.Size(138, 33);
+            this.btnFormlar.TabIndex = 28;
+            this.btnFormlar.Text = "Formlar";
+            this.btnFormlar.TextColor = System.Drawing.Color.Black;
+            this.btnFormlar.UseVisualStyleBackColor = false;
+            // 
             // Randevubtn
             // 
             this.Randevubtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
@@ -693,248 +921,20 @@
             this.btnAnaSayfa.Click += new System.EventHandler(this.btnAnaSayfa_Click);
             this.btnAnaSayfa.MouseHover += new System.EventHandler(this.btnAnaSayfa_MouseHover);
             // 
-            // panel3
+            // panelDegisen
             // 
-            this.panel3.AutoScroll = true;
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(158, 95);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1142, 805);
-            this.panel3.TabIndex = 20;
+            this.panelDegisen.AutoScroll = true;
+            this.panelDegisen.BackColor = System.Drawing.Color.Transparent;
+            this.panelDegisen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelDegisen.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDegisen.Location = new System.Drawing.Point(158, 95);
+            this.panelDegisen.Name = "panelDegisen";
+            this.panelDegisen.Size = new System.Drawing.Size(1142, 805);
+            this.panelDegisen.TabIndex = 20;
             // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // btnKisiİslemleri
-            // 
-            this.btnKisiİslemleri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnKisiİslemleri.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnKisiİslemleri.BorderColor = System.Drawing.Color.Transparent;
-            this.btnKisiİslemleri.BorderRadius = 10;
-            this.btnKisiİslemleri.BorderSize = 0;
-            this.btnKisiİslemleri.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnKisiİslemleri.FlatAppearance.BorderSize = 0;
-            this.btnKisiİslemleri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
-            this.btnKisiİslemleri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
-            this.btnKisiİslemleri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKisiİslemleri.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKisiİslemleri.ForeColor = System.Drawing.Color.Black;
-            this.btnKisiİslemleri.Image = ((System.Drawing.Image)(resources.GetObject("btnKisiİslemleri.Image")));
-            this.btnKisiİslemleri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKisiİslemleri.Location = new System.Drawing.Point(6, 279);
-            this.btnKisiİslemleri.Name = "btnKisiİslemleri";
-            this.btnKisiİslemleri.Size = new System.Drawing.Size(138, 33);
-            this.btnKisiİslemleri.TabIndex = 29;
-            this.btnKisiİslemleri.Text = "Kişi İşlemleri";
-            this.btnKisiİslemleri.TextColor = System.Drawing.Color.Black;
-            this.btnKisiİslemleri.UseVisualStyleBackColor = false;
-            // 
-            // btnFormlar
-            // 
-            this.btnFormlar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnFormlar.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnFormlar.BorderColor = System.Drawing.Color.Transparent;
-            this.btnFormlar.BorderRadius = 10;
-            this.btnFormlar.BorderSize = 0;
-            this.btnFormlar.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnFormlar.FlatAppearance.BorderSize = 0;
-            this.btnFormlar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
-            this.btnFormlar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
-            this.btnFormlar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFormlar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnFormlar.ForeColor = System.Drawing.Color.Black;
-            this.btnFormlar.Image = ((System.Drawing.Image)(resources.GetObject("btnFormlar.Image")));
-            this.btnFormlar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFormlar.Location = new System.Drawing.Point(6, 240);
-            this.btnFormlar.Name = "btnFormlar";
-            this.btnFormlar.Size = new System.Drawing.Size(138, 33);
-            this.btnFormlar.TabIndex = 28;
-            this.btnFormlar.Text = "Formlar";
-            this.btnFormlar.TextColor = System.Drawing.Color.Black;
-            this.btnFormlar.UseVisualStyleBackColor = false;
-            // 
-            // btnHyp
-            // 
-            this.btnHyp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnHyp.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnHyp.BorderColor = System.Drawing.Color.Transparent;
-            this.btnHyp.BorderRadius = 10;
-            this.btnHyp.BorderSize = 0;
-            this.btnHyp.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnHyp.FlatAppearance.BorderSize = 0;
-            this.btnHyp.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
-            this.btnHyp.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
-            this.btnHyp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHyp.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnHyp.ForeColor = System.Drawing.Color.Black;
-            this.btnHyp.Image = ((System.Drawing.Image)(resources.GetObject("btnHyp.Image")));
-            this.btnHyp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHyp.Location = new System.Drawing.Point(6, 201);
-            this.btnHyp.Name = "btnHyp";
-            this.btnHyp.Size = new System.Drawing.Size(138, 33);
-            this.btnHyp.TabIndex = 30;
-            this.btnHyp.Text = "HYP";
-            this.btnHyp.TextColor = System.Drawing.Color.Black;
-            this.btnHyp.UseVisualStyleBackColor = false;
-            // 
-            // btnSina
-            // 
-            this.btnSina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnSina.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
-            this.btnSina.BorderColor = System.Drawing.Color.Transparent;
-            this.btnSina.BorderRadius = 10;
-            this.btnSina.BorderSize = 0;
-            this.btnSina.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnSina.FlatAppearance.BorderSize = 0;
-            this.btnSina.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
-            this.btnSina.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
-            this.btnSina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSina.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSina.ForeColor = System.Drawing.Color.Black;
-            this.btnSina.Image = ((System.Drawing.Image)(resources.GetObject("btnSina.Image")));
-            this.btnSina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSina.Location = new System.Drawing.Point(6, 162);
-            this.btnSina.Name = "btnSina";
-            this.btnSina.Size = new System.Drawing.Size(138, 33);
-            this.btnSina.TabIndex = 31;
-            this.btnSina.Text = "SİNA";
-            this.btnSina.TextColor = System.Drawing.Color.Black;
-            this.btnSina.UseVisualStyleBackColor = false;
-            // 
-            // btnYardim
-            // 
-            this.btnYardim.BackColor = System.Drawing.Color.Transparent;
-            this.btnYardim.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnYardim.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnYardim.BorderRadius = 0;
-            this.btnYardim.BorderSize = 0;
-            this.btnYardim.FlatAppearance.BorderSize = 0;
-            this.btnYardim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnYardim.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnYardim.ForeColor = System.Drawing.Color.Black;
-            this.btnYardim.Location = new System.Drawing.Point(290, 1);
-            this.btnYardim.Name = "btnYardim";
-            this.btnYardim.Size = new System.Drawing.Size(56, 21);
-            this.btnYardim.TabIndex = 48;
-            this.btnYardim.Text = "Yardım";
-            this.btnYardim.TextColor = System.Drawing.Color.Black;
-            this.btnYardim.UseVisualStyleBackColor = false;
-            // 
-            // btnFavoriler
-            // 
-            this.btnFavoriler.BackColor = System.Drawing.Color.Transparent;
-            this.btnFavoriler.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnFavoriler.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnFavoriler.BorderRadius = 0;
-            this.btnFavoriler.BorderSize = 0;
-            this.btnFavoriler.FlatAppearance.BorderSize = 0;
-            this.btnFavoriler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFavoriler.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnFavoriler.ForeColor = System.Drawing.Color.Black;
-            this.btnFavoriler.Location = new System.Drawing.Point(228, 0);
-            this.btnFavoriler.Name = "btnFavoriler";
-            this.btnFavoriler.Size = new System.Drawing.Size(62, 21);
-            this.btnFavoriler.TabIndex = 47;
-            this.btnFavoriler.Text = "Favoriler";
-            this.btnFavoriler.TextColor = System.Drawing.Color.Black;
-            this.btnFavoriler.UseVisualStyleBackColor = false;
-            // 
-            // btnAnaliz
-            // 
-            this.btnAnaliz.BackColor = System.Drawing.Color.Transparent;
-            this.btnAnaliz.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnAnaliz.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnAnaliz.BorderRadius = 0;
-            this.btnAnaliz.BorderSize = 0;
-            this.btnAnaliz.FlatAppearance.BorderSize = 0;
-            this.btnAnaliz.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAnaliz.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAnaliz.ForeColor = System.Drawing.Color.Black;
-            this.btnAnaliz.Location = new System.Drawing.Point(172, 0);
-            this.btnAnaliz.Name = "btnAnaliz";
-            this.btnAnaliz.Size = new System.Drawing.Size(56, 21);
-            this.btnAnaliz.TabIndex = 46;
-            this.btnAnaliz.Text = "Analiz";
-            this.btnAnaliz.TextColor = System.Drawing.Color.Black;
-            this.btnAnaliz.UseVisualStyleBackColor = false;
-            // 
-            // btnGit
-            // 
-            this.btnGit.BackColor = System.Drawing.Color.Transparent;
-            this.btnGit.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnGit.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnGit.BorderRadius = 0;
-            this.btnGit.BorderSize = 0;
-            this.btnGit.FlatAppearance.BorderSize = 0;
-            this.btnGit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGit.ForeColor = System.Drawing.Color.Black;
-            this.btnGit.Location = new System.Drawing.Point(115, 0);
-            this.btnGit.Name = "btnGit";
-            this.btnGit.Size = new System.Drawing.Size(56, 21);
-            this.btnGit.TabIndex = 45;
-            this.btnGit.Text = "Git";
-            this.btnGit.TextColor = System.Drawing.Color.Black;
-            this.btnGit.UseVisualStyleBackColor = false;
-            // 
-            // btnDuzen
-            // 
-            this.btnDuzen.BackColor = System.Drawing.Color.Transparent;
-            this.btnDuzen.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnDuzen.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnDuzen.BorderRadius = 0;
-            this.btnDuzen.BorderSize = 0;
-            this.btnDuzen.FlatAppearance.BorderSize = 0;
-            this.btnDuzen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDuzen.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDuzen.ForeColor = System.Drawing.Color.Black;
-            this.btnDuzen.Location = new System.Drawing.Point(58, 0);
-            this.btnDuzen.Name = "btnDuzen";
-            this.btnDuzen.Size = new System.Drawing.Size(56, 21);
-            this.btnDuzen.TabIndex = 44;
-            this.btnDuzen.Text = "Düzen";
-            this.btnDuzen.TextColor = System.Drawing.Color.Black;
-            this.btnDuzen.UseVisualStyleBackColor = false;
-            // 
-            // btnDosya
-            // 
-            this.btnDosya.BackColor = System.Drawing.Color.Transparent;
-            this.btnDosya.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnDosya.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btnDosya.BorderRadius = 0;
-            this.btnDosya.BorderSize = 0;
-            this.btnDosya.FlatAppearance.BorderSize = 0;
-            this.btnDosya.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDosya.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnDosya.ForeColor = System.Drawing.Color.Black;
-            this.btnDosya.Location = new System.Drawing.Point(3, 0);
-            this.btnDosya.Name = "btnDosya";
-            this.btnDosya.Size = new System.Drawing.Size(56, 21);
-            this.btnDosya.TabIndex = 43;
-            this.btnDosya.Text = "Dosya";
-            this.btnDosya.TextColor = System.Drawing.Color.Black;
-            this.btnDosya.UseVisualStyleBackColor = false;
-            // 
-            // btnSil
-            // 
-            this.btnSil.BackColor = System.Drawing.Color.Transparent;
-            this.btnSil.BackGroundColor = System.Drawing.Color.Transparent;
-            this.btnSil.BorderColor = System.Drawing.Color.Transparent;
-            this.btnSil.BorderRadius = 25;
-            this.btnSil.BorderSize = 2;
-            this.btnSil.FlatAppearance.BorderSize = 0;
-            this.btnSil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSil.ForeColor = System.Drawing.Color.Transparent;
-            this.btnSil.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.Image")));
-            this.btnSil.Location = new System.Drawing.Point(393, 9);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(25, 25);
-            this.btnSil.TabIndex = 39;
-            this.btnSil.TextColor = System.Drawing.Color.Transparent;
-            this.btnSil.UseVisualStyleBackColor = false;
             // 
             // FormAnaSayfa
             // 
@@ -942,7 +942,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1300, 900);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panelDegisen);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel40);
@@ -1024,7 +1024,7 @@
         private AfiControls.AfiButton Poliklinikbtn;
         private AfiControls.AfiButton Kisilerbtn;
         private AfiControls.AfiButton btnAnaSayfa;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panelDegisen;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox pictureBox15;
         private AfiControls.AfiTextBox afiTextBox1;
