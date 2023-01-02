@@ -844,6 +844,7 @@
             this.btnFormlar.Text = "Formlar";
             this.btnFormlar.TextColor = System.Drawing.Color.Black;
             this.btnFormlar.UseVisualStyleBackColor = false;
+            this.btnFormlar.Click += new System.EventHandler(this.btnFormlar_Click);
             // 
             // Randevubtn
             // 

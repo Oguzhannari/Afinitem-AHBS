@@ -1,4 +1,5 @@
 ﻿
+using Sunum.Formlar.Aylık_Çalışma;
 using Sunum.Formlar.Hasta_Kabul;
 using Sunum.Static_Sınıflar;
 using System;
@@ -19,6 +20,7 @@ namespace Sunum
         Form form4 = new Form();
         Form form1 = new Form();
         Form form2 = new Form();
+        Form form3 = new Form();
 
         public FormAnaSayfa()
         {
@@ -27,6 +29,7 @@ namespace Sunum
             form4 = SabitFonksiyonlar.AbrirFormulario<FormKisiIslemleri>(panelDegisen);
             form1 = SabitFonksiyonlar.AbrirFormulario<FormHastaKabul>(panelDegisen);
             form2 = SabitFonksiyonlar.AbrirFormulario<FormKisiBilgileri>(panelDegisen);
+            form3 = SabitFonksiyonlar.AbrirFormulario<FormAylikCalisma>(panelDegisen);
             form.BringToFront();
 
         }
@@ -147,6 +150,11 @@ namespace Sunum
         {
             form2.BringToFront();
 
+        }
+
+        private void btnFormlar_Click(object sender, EventArgs e)
+        {
+            form3.BringToFront();
         }
     }
 }
