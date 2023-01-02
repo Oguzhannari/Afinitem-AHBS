@@ -178,6 +178,12 @@
     <Compile Include="FormLogin.designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPoliklinikDefteri_Uss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPoliklinikDefteri_Uss.designer.cs">
+      <DependentUpon>FormPoliklinikDefteri_Uss.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRecoverPassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -375,6 +381,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPoliklinikDefteri_Uss.resx">
+      <DependentUpon>FormPoliklinikDefteri_Uss.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormRecoverPassword.resx">
       <DependentUpon>FormRecoverPassword.cs</DependentUpon>

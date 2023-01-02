@@ -1,6 +1,7 @@
 ﻿
 using Sunum.Formlar.Aylık_Çalışma;
 using Sunum.Formlar.Hasta_Kabul;
+using Sunum.Formlar.PoliklinikDefteriV2;
 using Sunum.Static_Sınıflar;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,7 @@ namespace Sunum
         Form form2 = new Form();
         Form form3 = new Form();
         Form form5 = new Form();
+        Form form6 = new Form();
 
 
         public FormAnaSayfa()
@@ -33,7 +35,7 @@ namespace Sunum
             form2 = SabitFonksiyonlar.AbrirFormulario<FormKisiBilgileri>(panelDegisen);
             form3 = SabitFonksiyonlar.AbrirFormulario<FormAylikCalisma>(panelDegisen);
             form5 = SabitFonksiyonlar.AbrirFormulario<FormUserProfile1>(panelDegisen);
-            
+            form6 = SabitFonksiyonlar.AbrirFormulario<FormPoliklinikDefteri_Uss>(panelDegisen);
             form.BringToFront();
 
         }
@@ -73,6 +75,7 @@ namespace Sunum
 
         private void Poliklinikbtn_Click(object sender, EventArgs e)
         {
+            form6.BringToFront();
         }
 
         private void Poliklinikbtn_MouseHover(object sender, EventArgs e)
@@ -84,6 +87,7 @@ namespace Sunum
 
         private void Randevubtn_Click(object sender, EventArgs e)
         {
+
         }
 
         private void Randevubtn_MouseHover(object sender, EventArgs e)
