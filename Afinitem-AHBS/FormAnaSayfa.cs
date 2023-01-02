@@ -21,6 +21,8 @@ namespace Sunum
         Form form1 = new Form();
         Form form2 = new Form();
         Form form3 = new Form();
+        Form form5 = new Form();
+
 
         public FormAnaSayfa()
         {
@@ -30,6 +32,8 @@ namespace Sunum
             form1 = SabitFonksiyonlar.AbrirFormulario<FormHastaKabul>(panelDegisen);
             form2 = SabitFonksiyonlar.AbrirFormulario<FormKisiBilgileri>(panelDegisen);
             form3 = SabitFonksiyonlar.AbrirFormulario<FormAylikCalisma>(panelDegisen);
+            form5 = SabitFonksiyonlar.AbrirFormulario<FormUserProfile1>(panelDegisen);
+            
             form.BringToFront();
 
         }
@@ -138,7 +142,10 @@ namespace Sunum
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            form.Close();
+
+            form5.BringToFront();
+
+
         }
 
         private void HastaKabulbtn_Click_1(object sender, EventArgs e)

@@ -136,6 +136,12 @@
     <Compile Include="Entegrasyon\SYSWS.cs" />
     <Compile Include="Entegrasyon\VeriGuncelle.cs" />
     <Compile Include="Entegrasyon\WsEnabiz.cs" />
+    <Compile Include="FormAileİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAileİslemleri.designer.cs">
+      <DependentUpon>FormAileİslemleri.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAylikCalisma.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,54 @@
     <Compile Include="FormRecoverPassword.designer.cs">
       <DependentUpon>FormRecoverPassword.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormUserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserProfile.designer.cs">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleri.designer.cs">
+      <DependentUpon>FormVeriIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleriMernisEslestirmeGecmisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleriMernisEslestirmeGecmisi.designer.cs">
+      <DependentUpon>FormVeriIslemleriMernisEslestirmeGecmisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_BakanlikKisiIslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_BakanlikKisiIslemleri.designer.cs">
+      <DependentUpon>FormVeriIslemleri_BakanlikKisiIslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_EslestirmeGecmisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_EslestirmeGecmisi.designer.cs">
+      <DependentUpon>FormVeriIslemleri_EslestirmeGecmisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_EvdeSaglikHizmet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_EvdeSaglikHizmet.designer.cs">
+      <DependentUpon>FormVeriIslemleri_EvdeSaglikHizmet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_MernisTopluSorgulama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_MernisTopluSorgulama.designer.cs">
+      <DependentUpon>FormVeriIslemleri_MernisTopluSorgulama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_TopluHPVSonuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVeriIslemleri_TopluHPVSonuc.designer.cs">
+      <DependentUpon>FormVeriIslemleri_TopluHPVSonuc.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormWelcome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,11 +250,35 @@
     <Compile Include="Gebeİzlem.designer.cs">
       <DependentUpon>Gebeİzlem.cs</DependentUpon>
     </Compile>
+    <Compile Include="Genel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Genel.designer.cs">
+      <DependentUpon>Genel.cs</DependentUpon>
+    </Compile>
     <Compile Include="grafik.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="grafik.designer.cs">
       <DependentUpon>grafik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guncellemler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guncellemler.designer.cs">
+      <DependentUpon>Guncellemler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HastaKabulAyarlari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HastaKabulAyarlari.designer.cs">
+      <DependentUpon>HastaKabulAyarlari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hesap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hesap.designer.cs">
+      <DependentUpon>Hesap.cs</DependentUpon>
     </Compile>
     <Compile Include="HYP.cs">
       <SubType>Form</SubType>
@@ -226,15 +304,39 @@
     <Compile Include="Muayene.designer.cs">
       <DependentUpon>Muayene.cs</DependentUpon>
     </Compile>
+    <Compile Include="NTP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NTP.designer.cs">
+      <DependentUpon>NTP.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sabit Fonksiyonlar\SabitFonksiyonlar.cs" />
+    <Compile Include="Servis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Servis.designer.cs">
+      <DependentUpon>Servis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Staticler\Staticler.cs" />
     <Compile Include="Tetkik.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tetkik.designer.cs">
       <DependentUpon>Tetkik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TKTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TKTT.designer.cs">
+      <DependentUpon>TKTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yazici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yazici.designer.cs">
+      <DependentUpon>Yazici.cs</DependentUpon>
     </Compile>
     <Compile Include="İzlem15_49.cs">
       <SubType>Form</SubType>
@@ -252,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="bebekİzlem.resx">
       <DependentUpon>bebekİzlem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAileİslemleri.resx">
+      <DependentUpon>FormAileİslemleri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAylikCalisma.resx">
       <DependentUpon>FormAylikCalisma.cs</DependentUpon>
@@ -274,6 +379,30 @@
     <EmbeddedResource Include="FormRecoverPassword.resx">
       <DependentUpon>FormRecoverPassword.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormUserProfile.resx">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleri.resx">
+      <DependentUpon>FormVeriIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleriMernisEslestirmeGecmisi.resx">
+      <DependentUpon>FormVeriIslemleriMernisEslestirmeGecmisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleri_BakanlikKisiIslemleri.resx">
+      <DependentUpon>FormVeriIslemleri_BakanlikKisiIslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleri_EslestirmeGecmisi.resx">
+      <DependentUpon>FormVeriIslemleri_EslestirmeGecmisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleri_EvdeSaglikHizmet.resx">
+      <DependentUpon>FormVeriIslemleri_EvdeSaglikHizmet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleri_MernisTopluSorgulama.resx">
+      <DependentUpon>FormVeriIslemleri_MernisTopluSorgulama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVeriIslemleri_TopluHPVSonuc.resx">
+      <DependentUpon>FormVeriIslemleri_TopluHPVSonuc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormWelcome.resx">
       <DependentUpon>FormWelcome.cs</DependentUpon>
     </EmbeddedResource>
@@ -283,8 +412,20 @@
     <EmbeddedResource Include="Gebeİzlem.resx">
       <DependentUpon>Gebeİzlem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Genel.resx">
+      <DependentUpon>Genel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="grafik.resx">
       <DependentUpon>grafik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guncellemler.resx">
+      <DependentUpon>Guncellemler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HastaKabulAyarlari.resx">
+      <DependentUpon>HastaKabulAyarlari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hesap.resx">
+      <DependentUpon>Hesap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HYP.resx">
       <DependentUpon>HYP.cs</DependentUpon>
@@ -298,6 +439,9 @@
     <EmbeddedResource Include="Muayene.resx">
       <DependentUpon>Muayene.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NTP.resx">
+      <DependentUpon>NTP.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -307,8 +451,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Servis.resx">
+      <DependentUpon>Servis.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tetkik.resx">
       <DependentUpon>Tetkik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TKTT.resx">
+      <DependentUpon>TKTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yazici.resx">
+      <DependentUpon>Yazici.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="İzlem15_49.resx">
       <DependentUpon>İzlem15_49.cs</DependentUpon>
