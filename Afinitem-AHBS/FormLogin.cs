@@ -10,6 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using static DevExpress.Data.Filtering.Helpers.SubExprHelper;
 
 namespace Sunum
 
@@ -116,6 +117,11 @@ namespace Sunum
                         this.Hide();
                         FormWelcome welcome = new FormWelcome();
                         welcome.ShowDialog();
+
+                        FormAnaSayfa mainMenu = new FormAnaSayfa();
+
+                        mainMenu.Show();
+                        mainMenu.FormClosed += Logout;
 
                     }
                     else
