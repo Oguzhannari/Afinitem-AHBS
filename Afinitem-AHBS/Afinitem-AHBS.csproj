@@ -38,6 +38,12 @@
     <Reference Include="DevExpress.Drawing.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v22.1.Core, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Utils.v22.1, Version=22.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.2\lib\net45\Newtonsoft.Json.Bson.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -106,6 +112,17 @@
     <Compile Include="Baslangic.designer.cs">
       <DependentUpon>Baslangic.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entegrasyon\ICD-10.cs" />
+    <Compile Include="Entegrasyon\Ilaclar.cs" />
+    <Compile Include="Entegrasyon\Listeler.cs" />
+    <Compile Include="Entegrasyon\LstIlceKodlari.cs" />
+    <Compile Include="Entegrasyon\LstOlasiVakaTaniKriteri.cs" />
+    <Compile Include="Entegrasyon\LstSuttut.cs" />
+    <Compile Include="Entegrasyon\LstTumorunYeri.cs" />
+    <Compile Include="Entegrasyon\LstUlkeKodlari.cs" />
+    <Compile Include="Entegrasyon\Lst_zehirlenmeye_neden_olan_etken.cs" />
+    <Compile Include="Entegrasyon\Sql.cs" />
+    <Compile Include="Entegrasyon\VeriGuncelle.cs" />
     <Compile Include="FormHastaKabul.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -163,6 +180,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sabit Fonksiyonlar\SabitFonksiyonlar.cs" />
+    <Compile Include="Staticler\Staticler.cs" />
     <EmbeddedResource Include="AfiControls\AfiTextBox.resx" />
     <EmbeddedResource Include="AfiControls\AfiTextBox1.resx" />
     <EmbeddedResource Include="Asi.resx">
@@ -207,6 +225,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -220,5 +239,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
