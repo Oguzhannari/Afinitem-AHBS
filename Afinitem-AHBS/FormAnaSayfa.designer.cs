@@ -87,6 +87,7 @@
             this.btnAnaSayfa = new Sunum.AfiControls.AfiButton();
             this.panelDegisen = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.HastaKabulbtn = new Sunum.AfiControls.AfiButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AltaAl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Kucult)).BeginInit();
@@ -707,6 +708,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.HastaKabulbtn);
             this.panel4.Controls.Add(this.btnSina);
             this.panel4.Controls.Add(this.btnHyp);
             this.panel4.Controls.Add(this.btnKisiİslemleri);
@@ -737,7 +739,7 @@
             this.btnSina.ForeColor = System.Drawing.Color.Black;
             this.btnSina.Image = ((System.Drawing.Image)(resources.GetObject("btnSina.Image")));
             this.btnSina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSina.Location = new System.Drawing.Point(6, 162);
+            this.btnSina.Location = new System.Drawing.Point(6, 203);
             this.btnSina.Name = "btnSina";
             this.btnSina.Size = new System.Drawing.Size(138, 33);
             this.btnSina.TabIndex = 31;
@@ -761,7 +763,7 @@
             this.btnHyp.ForeColor = System.Drawing.Color.Black;
             this.btnHyp.Image = ((System.Drawing.Image)(resources.GetObject("btnHyp.Image")));
             this.btnHyp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHyp.Location = new System.Drawing.Point(6, 201);
+            this.btnHyp.Location = new System.Drawing.Point(6, 242);
             this.btnHyp.Name = "btnHyp";
             this.btnHyp.Size = new System.Drawing.Size(138, 33);
             this.btnHyp.TabIndex = 30;
@@ -785,7 +787,7 @@
             this.btnKisiİslemleri.ForeColor = System.Drawing.Color.Black;
             this.btnKisiİslemleri.Image = ((System.Drawing.Image)(resources.GetObject("btnKisiİslemleri.Image")));
             this.btnKisiİslemleri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKisiİslemleri.Location = new System.Drawing.Point(6, 279);
+            this.btnKisiİslemleri.Location = new System.Drawing.Point(6, 320);
             this.btnKisiİslemleri.Name = "btnKisiİslemleri";
             this.btnKisiİslemleri.Size = new System.Drawing.Size(138, 33);
             this.btnKisiİslemleri.TabIndex = 29;
@@ -809,7 +811,7 @@
             this.btnFormlar.ForeColor = System.Drawing.Color.Black;
             this.btnFormlar.Image = ((System.Drawing.Image)(resources.GetObject("btnFormlar.Image")));
             this.btnFormlar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFormlar.Location = new System.Drawing.Point(6, 240);
+            this.btnFormlar.Location = new System.Drawing.Point(6, 281);
             this.btnFormlar.Name = "btnFormlar";
             this.btnFormlar.Size = new System.Drawing.Size(138, 33);
             this.btnFormlar.TabIndex = 28;
@@ -833,7 +835,7 @@
             this.Randevubtn.ForeColor = System.Drawing.Color.Black;
             this.Randevubtn.Image = ((System.Drawing.Image)(resources.GetObject("Randevubtn.Image")));
             this.Randevubtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Randevubtn.Location = new System.Drawing.Point(6, 123);
+            this.Randevubtn.Location = new System.Drawing.Point(6, 164);
             this.Randevubtn.Name = "Randevubtn";
             this.Randevubtn.Size = new System.Drawing.Size(138, 33);
             this.Randevubtn.TabIndex = 21;
@@ -859,7 +861,7 @@
             this.Poliklinikbtn.ForeColor = System.Drawing.Color.Black;
             this.Poliklinikbtn.Image = ((System.Drawing.Image)(resources.GetObject("Poliklinikbtn.Image")));
             this.Poliklinikbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Poliklinikbtn.Location = new System.Drawing.Point(6, 84);
+            this.Poliklinikbtn.Location = new System.Drawing.Point(6, 125);
             this.Poliklinikbtn.Name = "Poliklinikbtn";
             this.Poliklinikbtn.Size = new System.Drawing.Size(138, 33);
             this.Poliklinikbtn.TabIndex = 20;
@@ -935,6 +937,31 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // HastaKabulbtn
+            // 
+            this.HastaKabulbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.HastaKabulbtn.BackGroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(234)))));
+            this.HastaKabulbtn.BorderColor = System.Drawing.Color.Transparent;
+            this.HastaKabulbtn.BorderRadius = 10;
+            this.HastaKabulbtn.BorderSize = 0;
+            this.HastaKabulbtn.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.HastaKabulbtn.FlatAppearance.BorderSize = 0;
+            this.HastaKabulbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(191)))), ((int)(((byte)(172)))));
+            this.HastaKabulbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(203)))), ((int)(((byte)(221)))), ((int)(((byte)(209)))));
+            this.HastaKabulbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.HastaKabulbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.HastaKabulbtn.ForeColor = System.Drawing.Color.Black;
+            this.HastaKabulbtn.Image = ((System.Drawing.Image)(resources.GetObject("HastaKabulbtn.Image")));
+            this.HastaKabulbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.HastaKabulbtn.Location = new System.Drawing.Point(6, 86);
+            this.HastaKabulbtn.Name = "HastaKabulbtn";
+            this.HastaKabulbtn.Size = new System.Drawing.Size(138, 33);
+            this.HastaKabulbtn.TabIndex = 32;
+            this.HastaKabulbtn.Text = "Hasta Kabul";
+            this.HastaKabulbtn.TextColor = System.Drawing.Color.Black;
+            this.HastaKabulbtn.UseVisualStyleBackColor = false;
+            this.HastaKabulbtn.Click += new System.EventHandler(this.HastaKabulbtn_Click_1);
             // 
             // FormAnaSayfa
             // 
@@ -1040,5 +1067,6 @@
         private AfiControls.AfiButton btnHyp;
         private AfiControls.AfiButton btnKisiİslemleri;
         private AfiControls.AfiButton btnFormlar;
+        private AfiControls.AfiButton HastaKabulbtn;
     }
 }

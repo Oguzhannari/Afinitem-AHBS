@@ -1,4 +1,5 @@
 ﻿
+using Sunum.Formlar.Hasta_Kabul;
 using Sunum.Static_Sınıflar;
 using System;
 using System.Collections.Generic;
@@ -16,12 +17,15 @@ namespace Sunum
     {
         Form form = new Form();
         Form form4 = new Form();
+        Form form1 = new Form();
+
 
         public FormAnaSayfa()
         {
             InitializeComponent();
             form = SabitFonksiyonlar.AbrirFormulario<grafik>(panelDegisen);
             form4 = SabitFonksiyonlar.AbrirFormulario<FormKisiIslemleri>(panelDegisen);
+            form1 = SabitFonksiyonlar.AbrirFormulario<FormHastaKabul>(panelDegisen);
             form.BringToFront();
 
         }
@@ -131,6 +135,11 @@ namespace Sunum
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             form.Close();
+        }
+
+        private void HastaKabulbtn_Click_1(object sender, EventArgs e)
+        {
+            form1.BringToFront();
         }
     }
 }
