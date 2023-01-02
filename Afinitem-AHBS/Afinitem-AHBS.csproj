@@ -119,6 +119,7 @@
     <Compile Include="Entegrasyon\ICD-10.cs" />
     <Compile Include="Entegrasyon\Ilaclar.cs" />
     <Compile Include="Entegrasyon\Listeler.cs" />
+    <Compile Include="Entegrasyon\LstEgitimKurumlari.cs" />
     <Compile Include="Entegrasyon\LstIlceKodlari.cs" />
     <Compile Include="Entegrasyon\LstOlasiVakaTaniKriteri.cs" />
     <Compile Include="Entegrasyon\LstSuttut.cs" />
